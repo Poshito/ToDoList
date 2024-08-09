@@ -50,12 +50,21 @@ h1 {
   margin-bottom: 10px;
   border-radius: 4px;
 }
-.task-item.completed {
+.completed {
   text-decoration: line-through;
   opacity: 0.6;
 }
-.delete-task {
+.delete-btn {
   background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  background-color: #11669bc9;
   color: white;
   border: none;
   padding: 5px 10px;
